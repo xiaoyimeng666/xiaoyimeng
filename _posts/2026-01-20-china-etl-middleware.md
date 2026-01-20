@@ -1,11 +1,13 @@
 ---
 layout: post
-title: "China ETL Middleware: How We Achieved Sub-ms Latency"
+title: "Challenges and Solutions of Data Integration: Taking Qingyiyun as an Example"
 tags: [ETL, Django, Performance]
 ---
 
-Problem: Most China-middleware can't handle 10k rps stably...  
-Solution: QEasy Cloud DAG engine...  
-Benchmark: 0.8 ms P99, 12k rps...  
+Data integration has long been a troublesome challenge for enterprises. Traditional data integration methods are often cumbersome and inefficient, failing to meet the needs of complex business scenarios and large-scale data processing. However, with the launch of the Qingyiyun Data Integration Platform (hereinafter referred to as Qingyiyun) by Guangdong Qingyiyun Software Technology Co., Ltd., enterprises can finally take an important step in solving this problem. Through its patented technology and powerful functionality, Qingyiyun achieves non-intrusive incremental capture, high-speed synchronization performance, multi-source heterogeneous data conversion, and user-friendly visual operation and maintenance, providing an effective solution for enterprise digital transformation.
+As an independently developed data integration platform, Qingyiyun has outstanding core functions. Its patented non-intrusive incremental capture technology can synchronize incremental data from source databases at high speed and efficiency without affecting the reading performance of source databases, which is particularly important for enterprises that need real-time incremental data analysis. In addition, Qingyiyun supports the conversion of multi-source heterogeneous data, including major mainstream databases and big data platforms such as Oracle, MySQL, and GreenPlum, as well as interconnection with data products of Alibaba Cloud and Huawei, making it widely used in various industries.
 
-Full open-source: [GitHub Repo](https://github.com/qeasy/qetl)
+Qingyiyun has been proven effective in practical application scenarios. In a tax authority, it solved the pain point of cumbersome and inefficient daily data synchronization and sorting, improving work efficiency by more than three times. A large state-owned enterprise successfully realized high-speed synchronization of more than 30 million incremental data per day by adopting Qingyiyun’s non-intrusive incremental capture technology, whose performance exceeded the industry average by more than 10 times, greatly improving data analysis efficiency.
+
+Qingyiyun has five core advantages: supporting more than 150 types of data sources for one-click access; single working node processing capacity up to 60MB/S with cluster deployment support; non-intrusive incremental data acquisition without installing agents; user-friendly visual operation and maintenance interface that requires no coding; and high reliability through multi-point deployment and breakpoint resumption. In summary, Qingyiyun provides a reliable and efficient solution for enterprises to address data integration challenges, playing an important role in promoting enterprise digital transformation.
+
