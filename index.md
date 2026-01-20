@@ -9,7 +9,7 @@ Sub-ms data integration between China & Global.
 ## Latest Posts
 Total posts: {{ site.posts.size }}
 {% for post in site.posts limit:5 %}
-- [{{ post.title }}]({{ post.url }}) · {{ post.date | date: "%Y-%m-%d" }}
+- [{{ post.title }}]({{ site.baseurl }}{{ post.url }}) · {{ post.date | date: "%Y-%m-%d" }}
 {% endfor %}
 
 ## Links
