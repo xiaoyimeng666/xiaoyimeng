@@ -3,4 +3,4 @@ theme: jekyll-theme-cayman
 title: QEasy Cloud Blog
 description: High-performance ETL middleware for China & Global
 url: "https://xiaoyimeng666.github.io"
-baseurl: ""
+baseurl: "/xiaoyimeng"
