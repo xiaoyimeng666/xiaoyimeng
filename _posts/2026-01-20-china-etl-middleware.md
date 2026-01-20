@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Challenges and Solutions of Data Integration: Taking Qingyiyun as an Example"
 tags: [Data Integration]
 ---
