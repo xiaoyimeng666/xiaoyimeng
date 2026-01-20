@@ -14,5 +14,4 @@ Total posts: {{ site.posts.size }}
 
 ## Links
 - [Official Site](https://www.qeasy.cloud)
-- [Core Repo](https://github.com/qeasy/qetl)
-- [Contact Us](mailto:hi@qeasy.cloud)
+- [Contact Us](mailto:wanghaoyu@qeasy.cloud)
