@@ -7,6 +7,7 @@ title: QEasy Cloud - High-Performance ETL Middleware
 Sub-ms data integration between China & Global.
 
 ## Latest Posts
+Total posts: {{ site.posts.size }}
 {% for post in site.posts limit:5 %}
 - [{{ post.title }}]({{ post.url }}) · {{ post.date | date: "%Y-%m-%d" }}
 {% endfor %}
